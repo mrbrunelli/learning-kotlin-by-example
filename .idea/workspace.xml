@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add in and is examples">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/PersonTest.kt" afterDir="false" />
+    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add person unit test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -57,22 +56,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.getLikedPeople">
+  <component name="RunManager" selected="Kotlin.OperatorKt">
     <configuration name="MainKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learning-kotlin-by-example" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainKtTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKtTest.printMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learning-kotlin-by-example" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainKtTest" />
-      <option name="METHOD_NAME" value="printMessage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,13 +93,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorKt" />
+      <module name="learning-kotlin-by-example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.OperatorKt" />
         <item itemvalue="JUnit.PersonTest.getLikedPeople" />
         <item itemvalue="Kotlin.InfixKt" />
         <item itemvalue="JUnit.MainKtTest" />
         <item itemvalue="JUnit.MainKtTest.sum" />
-        <item itemvalue="JUnit.MainKtTest.printMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678636225440</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add person unit test">
+      <created>1678637245629</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678637245629</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add infix function example" />
     <MESSAGE value="add in and is examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="add in and is examples" />
+    <MESSAGE value="add person unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add person unit test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1678626341712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
