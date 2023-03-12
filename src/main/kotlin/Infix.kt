@@ -23,4 +23,8 @@ fun main() {
     sophia likes claudia
     sophia likes brunelli
     println(sophia.likedPeople.map { item -> "${sophia.name} likes ${item.name}" })
+
+    println("Brunelli" in "Matheus Ricardo Brunelli")
+    println("Brunelli" in "Matheus Brune")
+    println("Brunelli" is String)
 }
