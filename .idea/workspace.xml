@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add infix function example">
+    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add in and is examples">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/PersonTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Infix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Infix.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InfixKt">
+  <component name="RunManager" selected="JUnit.PersonTest.getLikedPeople">
     <configuration name="MainKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learning-kotlin-by-example" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,6 +87,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest.getLikedPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learning-kotlin-by-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="METHOD_NAME" value="getLikedPeople" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InfixKt" />
       <module name="learning-kotlin-by-example" />
@@ -94,20 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="learning-kotlin-by-example" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest.getLikedPeople" />
         <item itemvalue="Kotlin.InfixKt" />
         <item itemvalue="JUnit.MainKtTest" />
         <item itemvalue="JUnit.MainKtTest.sum" />
         <item itemvalue="JUnit.MainKtTest.printMessage" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -127,12 +130,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678635444676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add in and is examples">
+      <created>1678636225440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678636225440</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add infix function example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add infix function example" />
+    <MESSAGE value="add in and is examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="add in and is examples" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1678626341712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
