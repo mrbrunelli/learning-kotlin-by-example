@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add operator and vararg examples">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Variables.kt" afterDir="false" />
+    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add variables example">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NullSafety.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,33 +57,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.VariablesKt">
-    <configuration name="PersonTest.getLikedPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learning-kotlin-by-example" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="METHOD_NAME" value="getLikedPeople" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InfixKt" />
+  <component name="RunManager" selected="Kotlin.GenericsKt">
+    <configuration name="ClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassesKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperatorKt" />
+    <configuration name="GenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericsKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarargKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VarargKt" />
+    <configuration name="NullSafetyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NullSafetyKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,13 +86,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkingWithNullsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkingWithNullsKt" />
+      <module name="learning-kotlin-by-example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GenericsKt" />
+        <item itemvalue="Kotlin.ClassesKt" />
+        <item itemvalue="Kotlin.WorkingWithNullsKt" />
+        <item itemvalue="Kotlin.NullSafetyKt" />
         <item itemvalue="Kotlin.VariablesKt" />
-        <item itemvalue="Kotlin.VarargKt" />
-        <item itemvalue="Kotlin.OperatorKt" />
-        <item itemvalue="JUnit.PersonTest.getLikedPeople" />
-        <item itemvalue="Kotlin.InfixKt" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678640758954</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add variables example">
+      <created>1678702499761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678702499761</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,7 +171,8 @@
     <MESSAGE value="add operator example" />
     <MESSAGE value="add vararg examples" />
     <MESSAGE value="add operator and vararg examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="add operator and vararg examples" />
+    <MESSAGE value="add variables example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add variables example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1678626341712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
