@@ -29,5 +29,10 @@
     </orderEntry>
     <orderEntry type="library" name="squareup.okhttp3.okhttp" level="project" />
     <orderEntry type="library" name="google.code.gson" level="project" />
+    <orderEntry type="library" name="squareup.moshi" level="project" />
+    <orderEntry type="library" name="squareup.moshi.kotlin.codegen" level="project" />
+    <orderEntry type="library" name="squareup.moshi.kotlin" level="project" />
+    <orderEntry type="library" name="jetbrains.kotlin.reflect" level="project" />
+    <orderEntry type="library" name="squareup.moshi.adapters" level="project" />
   </component>
 </module>
