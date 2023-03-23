@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add object declaration and companion objects examples">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/TakingFunctionsAsParameters.kt" afterDir="false" />
+    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add functions as parameters example">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/ReturningFunctions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TakingFunctionsAsParametersKt">
+  <component name="RunManager" selected="Kotlin.ReturningFunctionsKt">
     <configuration name="CompanionObjectsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="specialclasses.CompanionObjectsKt" />
       <module name="learning-kotlin-by-example" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectKeywordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="specialclasses.ObjectKeywordKt" />
+    <configuration name="ReturningFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.ReturningFunctionsKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ReturningFunctionsKt" />
         <item itemvalue="Kotlin.TakingFunctionsAsParametersKt" />
         <item itemvalue="Kotlin.CompanionObjectsKt" />
         <item itemvalue="Kotlin.ObjectDeclarationKt" />
         <item itemvalue="Kotlin.ObjectExpressionKt" />
-        <item itemvalue="Kotlin.ObjectKeywordKt" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679571771281</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add functions as parameters example">
+      <created>1679572054364</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679572054364</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,7 +317,8 @@
     <MESSAGE value="add object expression example" />
     <MESSAGE value="fix package name" />
     <MESSAGE value="add object declaration and companion objects examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="add object declaration and companion objects examples" />
+    <MESSAGE value="add functions as parameters example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add functions as parameters example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1678626341712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
