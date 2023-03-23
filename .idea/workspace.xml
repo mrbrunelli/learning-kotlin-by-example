@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add object expression example" />
+    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="fix package name">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/specialclasses/CompanionObjects.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/specialclasses/ObjectDeclaration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,37 +62,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ObjectExpressionKt">
-    <configuration name="DataClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpecialClasses.DataClassesKt" />
+  <component name="RunManager" selected="Kotlin.CompanionObjectsKt">
+    <configuration name="CompanionObjectsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="specialclasses.CompanionObjectsKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpecialClasses.EnumClassesKt" />
+    <configuration name="ObjectDeclarationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="specialclasses.ObjectDeclarationKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ObjectExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpecialClasses.ObjectExpressionKt" />
+      <option name="MAIN_CLASS_NAME" value="specialclasses.ObjectExpressionKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ObjectKeywordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpecialClasses.ObjectKeywordKt" />
+      <option name="MAIN_CLASS_NAME" value="specialclasses.ObjectKeywordKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SealedClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpecialClasses.SealedClassesKt" />
+      <option name="MAIN_CLASS_NAME" value="specialclasses.SealedClassesKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CompanionObjectsKt" />
+        <item itemvalue="Kotlin.ObjectDeclarationKt" />
         <item itemvalue="Kotlin.ObjectExpressionKt" />
         <item itemvalue="Kotlin.ObjectKeywordKt" />
         <item itemvalue="Kotlin.SealedClassesKt" />
-        <item itemvalue="Kotlin.EnumClassesKt" />
-        <item itemvalue="Kotlin.DataClassesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679535750062</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix package name">
+      <created>1679571430889</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679571430889</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,7 +296,8 @@
     <MESSAGE value="add sealed classes example" />
     <MESSAGE value="add object keyword example" />
     <MESSAGE value="add object expression example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add object expression example" />
+    <MESSAGE value="fix package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix package name" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1678626341712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
