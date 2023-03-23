@@ -1,4 +1,4 @@
-package SpecialClasses
+package specialclasses
 
 sealed class Mammal(val name: String)
 

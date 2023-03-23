@@ -1,4 +1,4 @@
-package SpecialClasses
+package specialclasses
 
 import java.util.Random
 
