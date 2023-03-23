@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add moshi example">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ConditionalExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add conditional expression example">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SpecialClasses/DataClasses.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +60,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ConditionalExpressionKt">
+  <component name="RunManager" selected="Kotlin.DataClassesKt">
     <configuration name="ConditionalExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConditionalExpressionKt" />
+      <module name="learning-kotlin-by-example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpecialClasses.DataClassesKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,20 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RangesKt" />
-      <module name="learning-kotlin-by-example" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DataClassesKt" />
         <item itemvalue="Kotlin.ConditionalExpressionKt" />
         <item itemvalue="Kotlin.MoshiKt" />
         <item itemvalue="Kotlin.OkHttpKt" />
         <item itemvalue="Kotlin.EqualityChecksKt" />
-        <item itemvalue="Kotlin.RangesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679495584964</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add conditional expression example">
+      <created>1679532975450</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679532975451</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,7 +246,8 @@
     <MESSAGE value="add equality checks example" />
     <MESSAGE value="add http request example" />
     <MESSAGE value="add moshi example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add moshi example" />
+    <MESSAGE value="add conditional expression example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add conditional expression example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1678626341712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
