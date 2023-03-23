@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add enum classes example">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SpecialClasses/SealedClasses.kt" afterDir="false" />
+    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add sealed classes example">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SpecialClasses/ObjectExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SpecialClasses/ObjectKeyword.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SealedClassesKt">
-    <configuration name="ConditionalExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConditionalExpressionKt" />
-      <module name="learning-kotlin-by-example" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ObjectExpressionKt">
     <configuration name="DataClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SpecialClasses.DataClassesKt" />
       <module name="learning-kotlin-by-example" />
@@ -83,8 +77,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoshiKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoshiKt" />
+    <configuration name="ObjectExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpecialClasses.ObjectExpressionKt" />
+      <module name="learning-kotlin-by-example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectKeywordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpecialClasses.ObjectKeywordKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ObjectExpressionKt" />
+        <item itemvalue="Kotlin.ObjectKeywordKt" />
         <item itemvalue="Kotlin.SealedClassesKt" />
         <item itemvalue="Kotlin.EnumClassesKt" />
         <item itemvalue="Kotlin.DataClassesKt" />
-        <item itemvalue="Kotlin.ConditionalExpressionKt" />
-        <item itemvalue="Kotlin.MoshiKt" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679534528688</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add sealed classes example">
+      <created>1679534986698</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679534986698</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,7 +272,8 @@
     <MESSAGE value="add conditional expression example" />
     <MESSAGE value="add data classes example" />
     <MESSAGE value="add enum classes example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add enum classes example" />
+    <MESSAGE value="add sealed classes example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sealed classes example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1678626341712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
