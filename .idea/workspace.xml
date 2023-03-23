@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="fix package name">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/specialclasses/CompanionObjects.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/specialclasses/ObjectDeclaration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="420c37f1-ba5f-4c8d-9983-2b44a81ea077" name="Changes" comment="add object declaration and companion objects examples">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/TakingFunctionsAsParameters.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CompanionObjectsKt">
+  <component name="RunManager" selected="Kotlin.TakingFunctionsAsParametersKt">
     <configuration name="CompanionObjectsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="specialclasses.CompanionObjectsKt" />
       <module name="learning-kotlin-by-example" />
@@ -91,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SealedClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="specialclasses.SealedClassesKt" />
+    <configuration name="TakingFunctionsAsParametersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.TakingFunctionsAsParametersKt" />
       <module name="learning-kotlin-by-example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TakingFunctionsAsParametersKt" />
         <item itemvalue="Kotlin.CompanionObjectsKt" />
         <item itemvalue="Kotlin.ObjectDeclarationKt" />
         <item itemvalue="Kotlin.ObjectExpressionKt" />
         <item itemvalue="Kotlin.ObjectKeywordKt" />
-        <item itemvalue="Kotlin.SealedClassesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679571430889</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add object declaration and companion objects examples">
+      <created>1679571759010</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679571759010</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add object declaration and companion objects examples">
+      <created>1679571771281</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679571771281</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,7 +309,8 @@
     <MESSAGE value="add object keyword example" />
     <MESSAGE value="add object expression example" />
     <MESSAGE value="fix package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix package name" />
+    <MESSAGE value="add object declaration and companion objects examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="add object declaration and companion objects examples" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1678626341712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
